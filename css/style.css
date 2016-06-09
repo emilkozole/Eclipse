@@ -1,0 +1,338 @@
+/* this is a custom css stylesheet */
+
+ @font-face {
+    font-family: 'Sofia';
+    src: url('https://dl.dropboxusercontent.com/s/1fqlw8gcnly1kbf/sofiapromedium-webfont.eot');
+    src: url('https://dl.dropboxusercontent.com/s/5k5vgh7u0ngq4ro/sofiapromedium-webfont.woff');
+    src: url('https://dl.dropboxusercontent.com/s/lqw1vtmkg68cofg/sofiapromedium-webfont.ttf');
+}
+   @font-face {
+    font-family: 'Proza';
+    src: url('https://dl.dropboxusercontent.com/s/z1rgsylmdaajiwi/ProzaDisplay-SemiBold.eot');
+    src: url('https://dl.dropboxusercontent.com/s/ezri2nle31qhhbn/ProzaDisplay-SemiBold.woff.woff');
+    src: url('https://dl.dropboxusercontent.com/s/m65lshzjdqstlx0/ProzaDisplay-SemiBold.ttf');
+}
+
+html{
+  height: 100%;
+}
+
+.row{
+  background: url('../img/Eclipse_by_Tilen_Sepic_1.jpg') no-repeat center; 
+  height: inherit;
+  display: table;
+  background-position: center 50%; 
+}
+
+body{
+  background-color: #fafafa;
+  margin: 0px;
+  text-rendering: optimizeLegibility; 
+  -webkit-font-smoothing: antialiased !important;
+  font-family: 'Sofia';
+  font-weight: normal !important;
+}
+
+h1, h2, h3{
+  text-align:center;
+  font-family: "Proza", serif;
+  font-weight: normal !important;
+  color: #444444;
+  font-size: 50px;
+  margin-top:0.3em;
+  margin-bottom:0.3em;
+}
+
+h1 a, h2 a, h3 a, p a, footer a {
+  color: #4c4c4c;
+  border-bottom: 1px solid;
+  text-decoration: none !important;
+}
+
+h1 a:hover, h2 a:hover, h3 a:hover, footer a:hover{
+  color: black;
+}
+
+a{
+  color: #4c4c4c;
+}
+
+a:hover{
+  color: black;
+}
+
+p{
+  text-align:center;
+  font-size: 18px;
+  color: #444444;
+  line-height: 1.5;
+}
+
+.row h1{color: white}
+.row p{color: white}
+.row p a{color: white; opacity: 0.9;}
+.row p a:hover{opacity: 1.0;}
+
+.logo_sepic{
+  z-index:999;
+  position:fixed;
+  left:16px;
+  top:16px;
+  width: 16px;
+  height:16px;
+}
+
+.title{
+  display: table-cell; 
+  vertical-align: middle;
+}
+
+.description {
+  max-width: 800px;
+  margin-left:auto;
+  margin-right: auto;
+  margin-bottom: 3em;
+}
+
+button{
+  font-family: 'Sofia';
+  font-size: inherit;
+  padding: 18px 40px 20px;
+  border: 2px solid white;
+  background-color:transparent;
+  color: white;
+  outline: 0 !important;
+  border-radius: 3px;
+  opacity: 0.9;
+}
+    
+button:hover {
+  opacity: 1.0;
+  cursor: pointer;
+}
+
+.about{
+  max-width: 800px;
+  margin-left:auto;
+  margin-right: auto;
+  padding: 200px;
+}
+
+.row2{
+  overflow:hidden;
+  margin: auto;
+}
+
+.row3{
+ /* overflow:hidden;
+  margin-left: 0px;
+  margin-right: 0px; */
+  width: 100% !important;
+  background-color: #222222;
+  height: auto !important;
+}
+
+.row, .row5, .row7, .row9 {
+  overflow:hidden;
+  margin-left: 0px;
+  margin-right: 0px;
+  height: 100vh;
+  min-width: 100% !important;
+  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover !important;
+}
+
+.row5{
+  background: url('../img/Eclipse_by_Tilen_Sepic_2.jpg') no-repeat center; 
+}
+
+.row7{
+  background: url('../img/Eclipse_by_Tilen_Sepic_3.jpg') no-repeat center; 
+}
+
+.row9{
+  background: url('../img/Eclipse_by_Tilen_Sepic_4.jpg') no-repeat center; 
+}
+
+.ecommerce{
+  padding: 200px;
+}
+
+.footer{
+  display: block;
+  position: relative;
+  clear: both;
+  width: 100%;
+  padding: 28px 24px;
+  line-height: 2;
+  font-size: 13px;
+}
+
+.footer span{
+  float: left;
+  margin-right: 18px;
+  display: block;
+}
+
+#footer-ljudje{
+width: 44px;
+float: right;
+padding-top: 8px;
+opacity: 0.8;
+display: block;
+margin-right: 50px;
+}
+
+#footer-ljudje:hover{
+opacity: 1.0;
+}
+
+
+.video-wrapper {
+  position: relative;
+  padding-bottom: 54.5%;; /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+}
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+    
+
+
+#ytplayer{
+  width: 100% !important;
+}
+
+::selection
+{
+background:black;
+color:white;
+}
+::-moz-selection
+{
+background:black;
+color:white;
+}
+
+
+
+
+/* fatsell */
+
+.fatsell .fatsell-embed {
+    margin: 0 auto;
+    max-width: 100%;
+    width: 100%;
+}
+
+.fatsell .fatsell-embed .product-floating{
+    width: 50% !important;
+    padding: 6px !important;
+}
+
+.fatsell .fatsell-embed .product-centered{
+    width: 50% !important;
+    clear: none !important;
+    float:right !important;
+    padding: 6px !important;
+
+}
+
+.fatsell .fatsell-embed .product .name{
+    padding-top: 1rem !important;
+    padding-bottom: 1.5rem !important;
+}
+
+.fatsell #fatsell_cart {
+    border-radius: 3px !important;
+}
+
+.fatsell #fatsell_cart .line-item .name {
+    text-align: left !important;
+}
+
+.fatsell #fatsell_cart .shipping-text {
+    text-align: left !important;
+}
+
+.fatsell #fatsell_cart .shipping-text::after {
+display: inline;
+content: '(EU Only)';
+text-align: left;
+margin-left: 0px;
+}
+
+
+/* media queries for smaller sizes */
+
+
+@media only screen and (min-width: 1440px){
+h1{font-size: 80px}
+.row p {font-size: 22px;}
+  }
+
+
+@media(max-width:992px){
+
+h1, h2, h3{
+  font-size: 36px;
+  margin-top:0.3em;
+  margin-bottom:0.3em;
+}
+
+p{
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.description {
+  width: 80%;
+  margin-left:auto; 
+  margin-right:auto; 
+  margin-bottom: 2em;
+}
+
+.about{
+  width: 80%;
+  margin-left:auto;
+  margin-right: auto;
+  padding: 40px;
+}
+
+.ecommerce{
+  padding: 10px;
+}
+
+#footer-ljudje{
+display: none;
+}
+
+}
+
+@media(max-width:768px){
+.row {
+  height: auto;
+}
+
+.title {
+  position: relative;
+  padding: 60px 20px;
+}
+
+.row5, .row7, .row9 {
+  height: 500px;
+  min-width: 100% !important;
+  background-size: 100%;
+  display: block;
+}
+
+
+}
