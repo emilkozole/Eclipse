@@ -1,16 +1,19 @@
 /* this is a custom css stylesheet */
-
  @font-face {
     font-family: 'Sofia';
-    src: url('https://dl.dropboxusercontent.com/s/1fqlw8gcnly1kbf/sofiapromedium-webfont.eot');
-    src: url('https://dl.dropboxusercontent.com/s/5k5vgh7u0ngq4ro/sofiapromedium-webfont.woff');
-    src: url('https://dl.dropboxusercontent.com/s/lqw1vtmkg68cofg/sofiapromedium-webfont.ttf');
+    src: url('../fonts/sofiapromedium-webfont.woff') format('woff');
+    src: url('../fonts/sofiapromedium-webfont.eot') format('eot');
+    src: url('../fonts/sofiapromedium-webfont.ttf')  format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
    @font-face {
     font-family: 'Proza';
-    src: url('https://dl.dropboxusercontent.com/s/z1rgsylmdaajiwi/ProzaDisplay-SemiBold.eot');
-    src: url('https://dl.dropboxusercontent.com/s/ezri2nle31qhhbn/ProzaDisplay-SemiBold.woff.woff');
-    src: url('https://dl.dropboxusercontent.com/s/m65lshzjdqstlx0/ProzaDisplay-SemiBold.ttf');
+    src: url('../fonts/ProzaDisplay-SemiBold.woff') format('woff');
+    src: url('../fonts/ProzaDisplay-SemiBold.eot') format('eot');
+    src: url('../fonts/ProzaDisplay-SemiBold.ttf')  format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 
 html{
@@ -204,24 +207,18 @@ opacity: 1.0;
   height: 100%;
 }
     
-
-
 #ytplayer{
   width: 100% !important;
 }
 
-::selection
-{
+::selection{
 background:black;
 color:white;
 }
-::-moz-selection
-{
+::-moz-selection{
 background:black;
 color:white;
 }
-
-
 
 
 /* fatsell */
