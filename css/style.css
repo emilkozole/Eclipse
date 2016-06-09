@@ -165,7 +165,6 @@ button:hover {
   display: block;
   position: relative;
   clear: both;
-  width: 100%;
   padding: 28px 24px;
   line-height: 2;
   font-size: 13px;
@@ -183,7 +182,7 @@ float: right;
 padding-top: 8px;
 opacity: 0.8;
 display: block;
-margin-right: 50px;
+margin-right: 0px;
 }
 
 #footer-ljudje:hover{
