@@ -135,7 +135,7 @@ button:hover {
   height: auto !important;
 }
 
-.row, .row5, .row7, .row9 {
+.row, .row5, .row7, .row9, .row11 {
   overflow:hidden;
   margin-left: 0px;
   margin-right: 0px;
@@ -158,6 +158,10 @@ button:hover {
 
 .row9{
   background: url('../img/Eclipse_by_Tilen_Sepic_4.jpg') no-repeat center; 
+}
+
+.row11{
+  background: url('../img/Eclipse_by_Tilen_Sepic_5.jpg') no-repeat center; 
 }
 
 .ecommerce{
@@ -311,14 +315,14 @@ p{
 display: none;
 }
 
-.row5, .row7, .row9 {
+.row5, .row7, .row9, .row11 {
   height: 300px;
   min-width: 100% !important;
   background-size: 100%;
   display: block;
 }
 
-.row10{
+.row-fatsell{
   margin-bottom: 2em;
 }
 
