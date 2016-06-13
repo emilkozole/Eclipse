@@ -326,6 +326,7 @@ display: none;
   margin-bottom: 2em;
 }
 
+
 }
 
 @media(max-width:768px){
@@ -336,6 +337,13 @@ display: none;
 .title {
   position: relative;
   padding: 60px 20px;
+}
+
+.video-wrapper {
+  position: relative;
+  padding-bottom: 50%;; /* 16:9 */
+  padding-top: 25px;
+  height: 0;
 }
 
 }
