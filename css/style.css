@@ -121,6 +121,8 @@ button:hover {
   padding: 200px;
 }
 
+.about img {width:100%}
+
 .row2{
   overflow:hidden;
   margin: auto;
